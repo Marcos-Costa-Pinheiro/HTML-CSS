@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando</title>
+    
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Testando imagens em diferentes tamanhos de tela.</p>
+    <picture>
+        <source media="(max-width: 850px)" srcset="Imagens/p.png" type="image/png">
+        <source media="(max-width: 1300px)" srcset="Imagens/m.png" type="image/png">
+        <img src="Imagens/original.png" alt="Imagem dinâmica">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Música tema do God Of War(2018)</p>
+    <audio controls>
+        <source src="media/god-of-war.mp3" type="audio/mp3">
+        <source src="media/god-of-war.ogg" type="audio/ogg">
+        <p>Seu navegador não suporta áudios.</p>
+    </audio>
+    
+</body>
+</html>

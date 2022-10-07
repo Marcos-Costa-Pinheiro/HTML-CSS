@@ -1,0 +1,74 @@
+HTML
+
+br - quebra de linha
+&lt; - menor que
+&gt; maior que
+&#xcodigo do emoji - mostra emoji
+strong - negrito
+em - italico
+ins - texto inserido
+del - texto excluído
+mark - marcar texto
+big - texto grande
+small - texto pequeno
+sup - texto sobrescrito
+sub - texto subscrito
+code - código fonte
+pre - pre formatar texto
+q - citação simples
+blockquote - citação completa
+abbr - abreviação
+bdo - inverter texto
+ol - listas ordenadas
+ul - listas não ordenadas
+li - escrever elementos da lista
+dl - listas de definição
+dt - termo de definição
+dd - descrição da definição
+a - ancora(links)
+Para links externos utiliza-se duas tags: target = _blank e rel = external
+download "nome do arquivo" - fazer download de um arquivo
+Código para imagens que se adaptam ao tamanho da tela = picture, img e source media type
+audio - colocar audio no site
+header - para cabeçalho do site
+nav - para navegação(links)
+main - conteúdo principal do site
+section - seção
+article - artigo
+aside - faz referencia ao conteudo principal
+footer - rodape do site
+
+Modelos de caixas
+
+Caixas possuem uma borda(border), padding(acochoamento), margin(margem), outline(contorno)
+Box-level(div, h1-h6, p, main, header, nav, article, aside, footer, form, video)
+Inline-level(span, a, code, small, strong, em, sup-sub, label, button, input, select))
+
+CSS
+
+@ - regra
+*{} - configuração geral das CSS
+background-image: linear-gradient - degradê
+background-attachment: fixed - fundo da página nao rola
+font - shorthand de fonte(1- font style 2- font-weight 3- font-size 4- font-family)
+@font-face - importar fonte baixada
+format(.otf = opentype, .ttf = truetype)
+id = # em CSS (só pode um elemento)
+class = . em CSS (pode varios elementos)
+> - filhos
+: - pseudoclasses
+:: - pseudoelementos
+border - shorthand de borda(1- largura, 2- estilo, 3- cor)
+margin - shorthand de margem(tamanho[cima, direita, baixo, esquerda]) 
+  obs: 1 tamanho = todos tamanhos iguais, 2 tamanhos = cima e baixo iguais, e direita e esquerda iguais
+padding - shorthand de padding(tamanho[cima, direita, baixo, esquerda])
+  obs: 1 tamanho = todos tamanhos iguais, 2 tamanhos = cima e baixo iguais, e direita e esquerda iguais
+outline - shorthand de contorno(1- largura, 2- estilo, 3-cor)
+box-shadow - cria uma sombra ao redor do conteudo(1- espaçamento horizontal, 2- espaçamento vertical, 3- cor)
+border-radius - borda arredondada(1 só valor = todos lados iguais, 2 valores = pontas opostas iguais)
+border-image - shorthand de border-image(1- url, 2- slice, 3- repeat)
+:root - area pra declarar variaveis
+  obs: toda variavel deve ter -- antes.
+list-style-position - posição do marcador da lista
+colums- numero de colunas que a lista terá
+list-style - estilo do marcador da lista(\código do emoji)

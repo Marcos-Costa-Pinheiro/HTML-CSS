@@ -1,0 +1,36 @@
+Conteúdo HTML
+
++-----------------------------------------------------------------+  
+        conteúdo                                                  |
+           |                                                      |
+           v                                                      |
+<h1>Exemplo de título</h1>                                        | 
+ ^                      ^                                         |
+ |                      |                                         |
+abertura de tag      fechamento de tag                            | 
+                                                                  |
+<p>exemplo de parágrafo</p>                                       | 
+                                                                  | 
+                               valor                              |
+                                 |                                |
+                                 v                                |
+<img src="imagem.png" alt="exemplo de foto"                       |
+   ^                    ^                                         | 
+   |                    |                                         |
+abertura de tag       parâmetro                                   |
++-----------------------------------------------------------------+
+
+Conteúdo CSS
+
++-----------------------------------------------------------------+
+seletor   declaração                                              |
+ |         |                                                      |
+ v         v                                                      |
+h1{|------------------|                                           |
+    font-family: Arial;                                           |
+    font-size: 20pt;                                              |
+    color: blue;                                                  | 
+  }  ^       ^                                                    |
+     |       |                                                    |
+propriedade  valor                                                |
++-----------------------------------------------------------------+

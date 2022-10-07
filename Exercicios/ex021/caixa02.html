@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: rgb(95, 94, 94);
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            margin: 10px 15px;
+        }
+
+        header{
+            background-color: white;
+            padding: 0px 5px;
+            padding-bottom: 5px;
+            border-radius: 10px;
+        }
+
+        main{
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        main > h1{
+            text-align: center;
+            padding-top: 25px;
+        }
+
+        section{
+            background-color: lightgray;
+            margin: 10px 10px;
+            padding: 10px;
+            padding-top: 0.1px;
+            font: bold 1em Arial, Helvetica, sans-serif;
+        }
+
+        section#violencia{
+            padding-top: 20px;
+            margin-top: -20px;
+        }
+
+        section#opiniao{
+            padding-top: 20px;
+            margin-top: -20px;
+        }
+
+        nav#menu{
+            background-color: rgb(75, 75, 75);
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            margin-top: 5px;
+            padding: 2px;
+            box-shadow: 2px 2px 4px rgba(58, 58, 58, 0.363);
+        }
+
+        nav#menu > a{
+            text-decoration: none;
+            color: white;
+            margin-top: 5px;
+            border-bottom: 1px solid black;
+        }
+
+        nav > a{
+            display: none;
+        }
+
+        nav:hover > a{
+            display: block;
+        }
+
+        aside#copyright{
+            text-align: center;
+            background-color: black;
+            color: white;
+            font-size: 0.5em;
+            margin: 0px -15px;
+        }
+
+        section#opiniao > article > aside{
+            margin-top: -10px;
+            font: italic bold 0.7em Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Site de notícias relacionadas ao Brasil</h1>
+        <nav id="menu">
+            Menu
+            <a href="">Sign-in</a>
+            <a href="">Sign-up</a>
+            <a href="">Contact us</a>
+            <a href="">About us</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Eleições, violência, criminalidade e opinião.</h1>
+        </section>
+            <section id="eleicoes">
+                <article>
+                    <h2>Eleições 2022</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, quaerat quia, facere dignissimos nisi rem accusantium ipsam dolorum quidem consectetur esse. Soluta dolor repellendus maxime voluptas delectus illo ullam quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquam voluptates non, sed facere quo, maxime iste quod cumque numquam totam necessitatibus recusandae similique minima nam cum id magni ducimus!</p>
+                </article>
+                <article>
+                    <h2>Candidatos à presidência</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae labore accusantium laudantium quos, impedit hic iure? Est vel amet alias vero enim provident, earum nisi quod iusto necessitatibus autem ducimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum veniam nihil ducimus minus facere asperiores in deleniti? Minima reiciendis eius, iusto mollitia quibusdam rem, iure dicta aperiam asperiores fugiat rerum?</p>
+                </article>
+            </section>
+            <section id="violencia">
+             <article>
+                    <h2>Violência e criminalidade</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam qui similique tempora molestiae, laboriosam ullam nobis commodi corrupti quidem eum facere non deleniti ex odio cupiditate dolor laudantium. Optio, libero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsa, provident magnam fugit ea ipsum maxime hic repellendus tempore, cupiditate eum, dolorum velit? Nulla fugit quam, commodi id exercitationem hic?</p>
+                </article>
+            </section>
+         <section id="opiniao">
+                <article>
+                    <h2>Opinião sobre a situação do Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt hic vitae beatae quibusdam aut suscipit quia earum modi velit, aspernatur soluta officiis labore. Hic eos libero nulla consectetur aperiam blanditiis.</p>
+                    <aside>
+                        Opinião escrita por Marcos Costa Pinheiro
+                    </aside>
+                </article>
+            </section>
+            <aside id="copyright">
+             Desenvolvido por MCP
+            </aside>
+
+    </main>
+    
+</body>
+</html>

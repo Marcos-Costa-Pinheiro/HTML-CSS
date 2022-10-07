@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Letters";
+    src: url(Letters.ttf) format("truetype");
+}
+main{
+    background-color: #AFD3DB;
+}
+
+body{
+    margin: auto;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+}
+
+h1#principal{
+    font: normal 3em Letters;
+    text-align: center;
+    background-color: #5f7377;
+    color: white;
+}
+
+h1{
+    color: #3F4C4F;
+}
+
+.basico{
+    color: rgb(1, 100, 1);
+}
+
+.intermediario{
+    color: rgb(100, 98, 1);
+}
+
+.avancado{
+    color: rgb(100, 1, 1);
+}
+
+p{
+    text-align: justify;
+}
+
+
