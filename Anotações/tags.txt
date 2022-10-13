@@ -49,6 +49,8 @@ CSS
 @ - regra
 *{} - configuração geral das CSS
 background-image: linear-gradient - degradê
+background-image: url(colocar imagem de fundo)
+background-size: tamanho da imagem(contain(a imagem ocupa todo o fundo do site, porem reduz muito o tamanho da imagem), cover(a imagem ocupa todo o fundo do site, porem corta a imagem dependendo do tamanho da resolução))
 background-attachment: fixed - fundo da página nao rola
 font - shorthand de fonte(1- font style 2- font-weight 3- font-size 4- font-family)
 @font-face - importar fonte baixada
@@ -58,6 +60,9 @@ class = . em CSS (pode varios elementos)
 > - filhos
 : - pseudoclasses
 :: - pseudoelementos
+width - largura
+height- altura
+  obs: vh(tamanho de acordo com a view port(tela))
 border - shorthand de borda(1- largura, 2- estilo, 3- cor)
 margin - shorthand de margem(tamanho[cima, direita, baixo, esquerda]) 
   obs: 1 tamanho = todos tamanhos iguais, 2 tamanhos = cima e baixo iguais, e direita e esquerda iguais
