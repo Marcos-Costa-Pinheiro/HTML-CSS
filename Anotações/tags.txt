@@ -53,6 +53,7 @@ background-image: linear-gradient - degradê
 background-image: url(colocar imagem de fundo)
 background-size: tamanho da imagem(contain(a imagem ocupa todo o fundo do site, porem reduz muito o tamanho da imagem), cover(a imagem ocupa todo o fundo do site, porem corta a imagem dependendo do tamanho da resolução))
 background-attachment: fixa o fundo na tela
+para alinhar verticalmente uma caixa dentro da outra(utiliza-se o position relative para o container e position absolute para o conteudo, utilizando o top 50% e left 50%, logo depois usa-se o transform: translate(-50%, -50%))
 font - shorthand de fonte(1- font style 2- font-weight 3- font-size 4- font-family)
 @font-face - importar fonte baixada
 format(.otf = opentype, .ttf = truetype)
