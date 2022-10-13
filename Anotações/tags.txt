@@ -48,10 +48,11 @@ CSS
 
 @ - regra
 *{} - configuração geral das CSS
+background - shorthand do background(1- cor, 2- image, 3- position, 4- repeat, 6- attachment)
 background-image: linear-gradient - degradê
 background-image: url(colocar imagem de fundo)
 background-size: tamanho da imagem(contain(a imagem ocupa todo o fundo do site, porem reduz muito o tamanho da imagem), cover(a imagem ocupa todo o fundo do site, porem corta a imagem dependendo do tamanho da resolução))
-background-attachment: fixed - fundo da página nao rola
+background-attachment: fixa o fundo na tela
 font - shorthand de fonte(1- font style 2- font-weight 3- font-size 4- font-family)
 @font-face - importar fonte baixada
 format(.otf = opentype, .ttf = truetype)
