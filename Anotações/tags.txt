@@ -42,6 +42,11 @@ Table - tag da tabela
   tr - linha da tabela
     th - cabeçalho da tabela
     td - dado da tabela
+anatomia de uma tabela:
+  Caption: título da tabela
+  Thead: Cabeça da tabela
+  Tbody: Corpo da tabela
+  Tfoot: pé da tabela
 
 
 Modelos de caixas
