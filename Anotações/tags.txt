@@ -47,6 +47,8 @@ anatomia de uma tabela:
   Thead: Cabeça da tabela
   Tbody: Corpo da tabela
   Tfoot: pé da tabela
+scope: escopo de um th, utiliza-se scope col para o dado de um th que está na mesma coluna ou scope row para um dado de um th que está na mesma linha
+mesclagem de celula: rowspan(deifine qnts linhas a celula vai ocupar), colspan(define quantas colunas a celula vai ocupar)
 
 
 Modelos de caixas
@@ -88,6 +90,7 @@ border-radius - borda arredondada(1 só valor = todos lados iguais, 2 valores = 
 border-image - shorthand de border-image(1- url, 2- slice, 3- repeat)
 :root - area pra declarar variaveis
   obs: toda variavel deve ter -- antes.
+position - posição de um elemento(fixo, relativo, pegajoso...)
 list-style-position - posição do marcador da lista
 colums- numero de colunas que a lista terá
 list-style - estilo do marcador da lista(\código do emoji)
