@@ -95,5 +95,6 @@ position - posição de um elemento(fixo, relativo, pegajoso...)
 list-style-position - posição do marcador da lista
 list-style - estilo do marcador da lista(\código do emoji)
 colums- numero de colunas que a lista terá
+overflow - utilizado pra deixar as tabelas responsivas
 
 
