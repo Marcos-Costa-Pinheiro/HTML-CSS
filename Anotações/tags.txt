@@ -49,6 +49,7 @@ anatomia de uma tabela:
   Tfoot: pé da tabela
 scope: escopo de um th, utiliza-se scope col para o dado de um th que está na mesma coluna ou scope row para um dado de um th que está na mesma linha
 mesclagem de celula: rowspan(deifine qnts linhas a celula vai ocupar), colspan(define quantas colunas a celula vai ocupar)
+colgroup - é possivel dar nome para as colunas e estilizá-las
 
 
 Modelos de caixas
@@ -61,7 +62,7 @@ CSS
 
 @ - regra
 *{} - configuração geral das CSS
-background - shorthand do background(1- cor, 2- image, 3- position, 4- repeat, 6- attachment)
+background - shorthand do background(1- cor, 2- image, 3- position, 4- repeat, 5- attachment)
 background-image: linear-gradient - degradê
 background-image: url(colocar imagem de fundo)
 background-size: tamanho da imagem(contain(a imagem ocupa todo o fundo do site, porem reduz muito o tamanho da imagem), cover(a imagem ocupa todo o fundo do site, porem corta a imagem dependendo do tamanho da resolução))
@@ -92,5 +93,7 @@ border-image - shorthand de border-image(1- url, 2- slice, 3- repeat)
   obs: toda variavel deve ter -- antes.
 position - posição de um elemento(fixo, relativo, pegajoso...)
 list-style-position - posição do marcador da lista
-colums- numero de colunas que a lista terá
 list-style - estilo do marcador da lista(\código do emoji)
+colums- numero de colunas que a lista terá
+
+
