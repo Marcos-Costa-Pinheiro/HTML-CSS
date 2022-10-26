@@ -5,10 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Utilizando iframes</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        iframe{
+            width: 500px;
+            height: 500px;
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>Iframe</h1>
-    <p><iframe src="http://cursoemvideo.com" frameborder="0"></iframe></p>
-    
+    <p>Com o site <iframe src="http://cursoemvideo.com" frameborder="0">
+        <a href="http://cursoemvideo.com"> Curso em Video</a> você pode aprender programação
+    </iframe> você pode aprender programação</p>
+    <br>
+    <p>Repositório <iframe src="https://gustavoguanabara.github.io/" frameborder="0">
+        <a href="https://gustavoguanabara.github.io/"> no github para aprender programação</a>
+    </iframe> para aprender programação</p>
 </body>
 </html>
