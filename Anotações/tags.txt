@@ -50,6 +50,10 @@ anatomia de uma tabela:
 scope: escopo de um th, utiliza-se scope col para o dado de um th que está na mesma coluna ou scope row para um dado de um th que está na mesma linha
 mesclagem de celula: rowspan(deifine qnts linhas a celula vai ocupar), colspan(define quantas colunas a celula vai ocupar)
 colgroup - é possivel dar nome para as colunas e estilizá-las
+iframe - podemos utilizar conteúdos de outras páginas em um quadro dentro da página do nosso site
+srcdoc - podemos escrever em html dentro de um iframe(o conteúdo só será exibido se o iframe estiver vazio)
+sandbox - permissoes do iframe de coletar dados('sandbox' não coleta dado nenhum)
+referrer-policy - politica de referencia
 
 
 Modelos de caixas

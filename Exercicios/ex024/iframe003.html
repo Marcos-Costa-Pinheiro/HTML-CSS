@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe{
+            width: 99vw;
+            height: 400px;
+        }
+
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptatem fuga doloremque voluptate quam explicabo earum, corrupti facilis dolorem harum eius consequuntur quaerat dolorum nostrum provident neque repellat pariatur expedita! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae perferendis quos necessitatibus cum. Voluptate laborum odit adipisci obcaecati tempora ipsam cum recusandae perspiciatis assumenda ullam commodi nisi nihil, natus explicabo?</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Teceira página</a></li>
+    </ul>
+    
+    <iframe srcdoc="<h1>Escolha uma das opções acima.</h1>" name="frame">
+        <p>Infelizmente seu navegador não é compatível.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione perspiciatis eligendi, eveniet provident velit sunt, fuga obcaecati veritatis tenetur architecto repudiandae deleniti assumenda facere! Optio voluptatem excepturi debitis esse autem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem eligendi qui labore, laborum voluptatibus ullam illum nam officiis! Impedit nihil dicta tenetur totam possimus iure obcaecati porro alias temporibus a.</p>
+</body>
+</html>
