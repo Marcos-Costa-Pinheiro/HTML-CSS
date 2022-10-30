@@ -45,3 +45,8 @@ section#redes-sociais a img{
     margin: 15px 10px 0px 0px;
 }
 
+section#redes-sociais a img:hover{
+    border: 2px solid white;
+    transition-duration: 1.5s;
+}
+
