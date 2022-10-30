@@ -7,7 +7,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: white url('../imagens/fundo-madeira.jpg') center top no-repeat fixed;
+    background: white url('../imagens/fundo-madeira.jpg') center no-repeat fixed;
     background-size: cover;
 }
 
