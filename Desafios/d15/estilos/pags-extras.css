@@ -3,19 +3,10 @@
 *{
     margin: 0;
     padding: 0;
-    background-attachment: fixed;
 }   
 
 *::-webkit-scrollbar{
     width: 0! important;
-}
-
-img{
-    position: absolute;
-    top: 140%;
-    left: 49%;
-    transform: translate(-50%, -50%);
-    width: 268px;
 }
 
 a > button{
@@ -24,7 +15,7 @@ a > button{
     left: 48%;
     transform: translate(-50%, -50%);
     height: 80px;
-    width: 271px;
+    width: 278px;
     background-color: rgb(182, 15, 48);
     color: white;
     font-weight: bold;
