@@ -6,6 +6,7 @@
 }
 
 body{
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     background: white url('../imagens/fundo-madeira.jpg') top center no-repeat fixed;
     background-size: cover;
