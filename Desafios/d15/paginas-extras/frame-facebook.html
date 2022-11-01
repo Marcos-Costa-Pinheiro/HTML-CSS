@@ -11,15 +11,37 @@
             padding: 0;
         }
 
+        *::-webkit-scrollbar{
+        width: 0! important;
+        }
+
         body{
             background: url('../imagens/tela-facebook.jpg') no-repeat top center;
             background-size: cover;
         }
 
+        a > button{
+            position: absolute;
+            top: 565%;
+            left: 48%;
+            transform: translate(-50%, -50%);
+            height: 80px;
+            width: 278px;
+            background-color: rgb(182, 15, 48);
+            color: white;
+            font-weight: bold;
+            font-size: 1.2em;
+            border: none;
+        }
+
+        a > button:hover{
+            background-color: red;
+        }
+
     </style>
 </head>
 <body>
+    <a href="https://www.facebook.com/gustavoguanabara" target="_blank"><button>ACESSE</button></a>
 
-    
 </body>
 </html>

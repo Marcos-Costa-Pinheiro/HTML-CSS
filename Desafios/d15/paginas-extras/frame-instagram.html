@@ -4,18 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../estilos/pags-extras.css">
     <title>Document</title>
     <style>
         *{
-            padding: 0;
             margin: 0;
+            padding: 0;
+        }
+
+        *::-webkit-scrollbar{
+        width: 0! important;
         }
 
         body{
             background: url('../imagens/tela-instagram.jpg') no-repeat top center;
             background-size: cover;
         }
+
+        a > button{
+            position: absolute;
+            top: 488%;
+            left: 48%;
+            transform: translate(-50%, -50%);
+            height: 80px;
+            width: 278px;
+            background-color: rgb(182, 15, 48);
+            color: white;
+            font-weight: bold;
+            font-size: 1.2em;
+            border: none;
+        }
+
+        a > button:hover{
+            background-color: red;
+        }
+
     </style>
 </head>
 <body>
