@@ -54,6 +54,12 @@ iframe - podemos utilizar conteúdos de outras páginas em um quadro dentro da p
 srcdoc - podemos escrever em html dentro de um iframe(o conteúdo só será exibido se o iframe estiver vazio)
 sandbox - permissoes do iframe de coletar dados('sandbox' não coleta dado nenhum)
 referrer-policy - politica de referencia
+form - cria um formulario
+  action - define para onde será enviado os dados do input
+  autocomplete - define se ao passar o mouse por cima do formulario, ele completa com os dados ou nao
+  method - (get = mostra os dados digitados explicitos na url), (post = não mostra os dados na url)
+input - cria a caixinha de interaçao de dados
+label - cria um vinculo do nome com o id do input
 
 
 Modelos de caixas
