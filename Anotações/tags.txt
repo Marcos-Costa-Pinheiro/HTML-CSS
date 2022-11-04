@@ -59,7 +59,20 @@ form - cria um formulario
   autocomplete - define se ao passar o mouse por cima do formulario, ele completa com os dados ou nao
   method - (get = mostra os dados digitados explicitos na url), (post = não mostra os dados na url)
 input - cria a caixinha de interaçao de dados
-label - cria um vinculo do nome com o id do input
+  required(obriga o usuario a digitar alguma coisa no formulario)
+  placeholder - dica dentro do formulário
+  minleght(minimo de letras)
+  maxlenght(maximo de letras)
+  min - numero minimo permitido
+  max - numero maximo permitido
+  value - valor que já aparece por padrao no formulario
+  step - qual o valor do passo do número
+  size(tamanho da caixa do formulario)
+  autocomplete(cria um vinculo com oq vai ser digitado no formulario)
+  
+label - cria um vinculo do nome com o input(identifica-se com seu id)
+
+
 
 
 Modelos de caixas
