@@ -69,8 +69,12 @@ input - cria a caixinha de interaçao de dados
   step - qual o valor do passo do número
   size(tamanho da caixa do formulario)
   autocomplete(cria um vinculo com oq vai ser digitado no formulario)
-  
+  cheked - ja deixa marcada um checkbox ou um radio
+input radio - deve-se usar o msm name em todos os radios semanticamente iguais, e definir um value com o msm nome do radio.
 label - cria um vinculo do nome com o input(identifica-se com seu id)
+pattern - cria uma expressao regular
+fieldset - cria um agrupamento
+  legend - cria um titulo no agrupamento
 
 
 
