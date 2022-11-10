@@ -59,6 +59,7 @@ form - cria um formulario
   autocomplete - define se ao passar o mouse por cima do formulario, ele completa com os dados ou nao
   method - (get = mostra os dados digitados explicitos na url), (post = não mostra os dados na url)
 input - cria a caixinha de interaçao de dados
+  obs: ao utiliza input do tupo envio de arquivo deve-se utilizar o metodo post
   required(obriga o usuario a digitar alguma coisa no formulario)
   placeholder - dica dentro do formulário
   minleght(minimo de letras)
