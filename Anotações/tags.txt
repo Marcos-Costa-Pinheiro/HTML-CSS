@@ -76,6 +76,11 @@ label - cria um vinculo do nome com o input(identifica-se com seu id)
 pattern - cria uma expressao regular
 fieldset - cria um agrupamento
   legend - cria um titulo no agrupamento
+select - cria uma lista de seleção
+  option - cria opções da lista de seleção
+  optgroup - cria um grupo de opções(label dá o nome ao grupo)
+datalist - pode fazer uma junção de um input normal com uma lista(para utiliza-lo você precisa definir seu id, e dentro do input criar o parametro list, com o id do datalist dentro.)
+textarea - cria uma area para digitar um texto sem limites.
 
 
 
