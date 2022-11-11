@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de cadastro</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            border-bottom: 1px solid gray;
+            margin: 30px;
+            padding-bottom: 20px;
+        }
+
+        form{
+            margin: 30px;
+        }
+
+        p{
+            margin-top: 50px;
+        }
+
+        label{
+            font-weight: bold;
+        }
+
+        input{
+            height: 20px;
+        }
+
+        input:focus{
+            border-radius: 5px;
+            text-indent: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastre-se e receba novidades em seu e-mail</h1>
+    <form>
+        <p style="margin-top: 0;">
+            <label for="inome" style="margin-right: 50px;">Nome Completo</label>
+            <input type="text" name="nome" id="inome" size="12">
+            <label for="inome" style="position: absolute; top: 145px; left: 207px; color: #9fa2a5; font-size: 0.7em;">Primeiro nome</label>
+            <input type="text" name="snome" id="isnome" size="17">
+            <label for="isnome" style="position: absolute; top: 145px; left: 328px; color: #9fa2a5; font-size: 0.7em;">Sobrenome</label>
+        </p>
+        <p>
+            <label for="iemail" style="margin-right: 125px;">E-mail</label>
+            <input type="email" name="email" id="iemail" size="30px" placeholder="ex: myname@example.com">
+        </p>
+        <p>
+            <label for="iende" style="margin-right: 100px">Endereço</label>
+            <input type="text" name="ende" id="iende" size="45px">
+            <label for="iende" style="position: absolute; top: 293px; left: 207px; color: #9fa2a5; font-size: 0.7em;">Endereço</label>
+            <br>
+            <input type="text" name="cida" id="icida" style="margin-left: 177px; margin-top: 30px;">
+            <label for="icida" style="position: absolute; top: 348px; left: 207px; color: #9fa2a5; font-size: 0.7em;">Cidade</label>
+            <input type="text" name="est" id="iest">
+            <label for="iest" style="position: absolute; top: 348px; left: 384px; color: #9fa2a5; font-size: 0.7em;">Estado / Província</label>
+            <br>
+            <input type="text" name="cep" id="icep" style="margin-left: 177px; margin-top: 30px;">
+            <label for="icep" style="position: absolute; top: 403px; left: 207px; color: #9fa2a5; font-size: 0.7em;">CEP</label>
+            <select name="pais" id="ipais" style="width: 173px; height: 24px;">
+                <option>Please select</option>
+                <option value="AR">Argentina</option>
+                <option value="AN">Angola</option>
+                <option value="BR">Brasil</option>
+                <option value="BE">Bélgica</option>
+                <option value="CA">Camarões</option>
+                <option value="CH">Chile</option>
+            </select>
+            <label for="ipais" style="position: absolute; top: 403px; left: 384px; color: #9fa2a5; font-size: 0.7em;">País</label>
+        </p>
+        <p>
+            <label for="inasc" style="margin-right: 20px;">Data de Nascimento</label>
+            <input type="date" name="nasc" id="inasc">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
