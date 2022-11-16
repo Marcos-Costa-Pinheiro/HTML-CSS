@@ -131,6 +131,7 @@ list-style - estilo do marcador da lista(\código do emoji)
 colums- numero de colunas que a lista terá
 overflow - utilizado pra deixar as tabelas responsivas
 media queries - cria um estilo para uma determinada midia(telas diferente, dispositivos diferentes(impressoras, etc))
-   media type - tipo de media(tela, impressora, dispositivo de mão, etc))
+   media type - tipo de media = tela, impressora, dispositivo de mão, etc.
+   media future - caracteristica da media = adicionada logo dps da media type, com um and e entre parenteses.
 
 
