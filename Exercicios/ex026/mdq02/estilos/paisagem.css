@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* Configurações para paisagem(landscape) */ 
+
+body{
+    background: white url('../imagens/cev-landscape.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    font-size: 1.6em;
+}
+
+p{
+    margin: auto;
+    text-align: justify;
+    width: 80vw;
+    font-size: 1em;
+}
