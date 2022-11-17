@@ -1,21 +1,20 @@
 @charset "UTF-8";
 
-/* Configurações para retrato(portrait) */
-
-body{
-    background: white url('../imagens/cev-portrait.jpg') center fixed no-repeat fixed;
-    background-size: cover;
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    text-align: center;
-    margin: 20px;
-    font-size: 1.7em;
+p#a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 2em;
 }
 
-p{
-    margin: auto;
-    text-align: justify;
-    width: 100vw;
-    font-size: 1.1em;
+p#b{
+    display: none;
 }
