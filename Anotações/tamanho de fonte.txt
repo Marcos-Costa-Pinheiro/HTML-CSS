@@ -1,5 +1,0 @@
-Recomendados
-
-px ou em
-px = pixel (padrão dos sites = 16px)
-em = trabalha em emcima do tamanho padrao de uma fonte(1em = 16px)

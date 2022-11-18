@@ -82,6 +82,10 @@ select - cria uma lista de seleção
 datalist - pode fazer uma junção de um input normal com uma lista(para utiliza-lo você precisa definir seu id, e dentro do input criar o parametro list, com o id do datalist dentro.)
 textarea - cria uma area para digitar um texto sem limites.
 output - permite a saida de valores, dados(necessita aprender programação(javascript))
+media queries - cria um estilo para uma determinada midia(telas diferente, dispositivos diferentes(impressoras, etc))
+  obs: utiliza-se o link css
+  media type - tipo de media = tela, impressora, dispositivo de mão, etc.
+  media future - caracteristica da media = adicionada logo dps da media type, com um and e entre parenteses.
 
 
 
@@ -130,8 +134,7 @@ list-style-position - posição do marcador da lista
 list-style - estilo do marcador da lista(\código do emoji)
 colums- numero de colunas que a lista terá
 overflow - utilizado pra deixar as tabelas responsivas
-media queries - cria um estilo para uma determinada midia(telas diferente, dispositivos diferentes(impressoras, etc))
-   media type - tipo de media = tela, impressora, dispositivo de mão, etc.
-   media future - caracteristica da media = adicionada logo dps da media type, com um and e entre parenteses.
+media queries - utiliza-se o @media
+
 
 
