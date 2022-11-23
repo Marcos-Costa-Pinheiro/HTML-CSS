@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/* Todas as demais midias */ 
+
+/* Typical Device Breakpoints 
+------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: de 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media print {
+
+    *{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.1em;
+    }
+
+    header > h1{
+        font-size: 2em;
+    }
+
+    main h2{
+        font-size: 1.3em;
+    }
+
+    i#burguer{
+        display: none;
+    }
+
+    main::after{
+        content: 'Conteúdo impresso pelo site www.cursoemvideo.com';
+        border: 1px solid black;
+        border-radius: 2px;
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    header h1{
+        padding: 10px 0px;
+    }
+
+    i#burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+        text-align: left;
+    }
+
+    ul{
+        background-color: rgb(150, 149, 149);
+    }
+
+    ul li{
+        display: inline-block;
+        background-color: #575757;
+        border-radius: 5px;
+    }
+
+    main{
+        width: 80vw;
+    }
+
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+    header h1{
+        padding: 10px 0px;
+    }
+
+    i#burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+        text-align: left;
+    }
+
+    ul{
+        background-color: rgb(150, 149, 149);
+    }
+
+    ul li{
+        display: inline-block;
+        background-color: #575757;
+        border-radius: 5px;
+    }
+
+    main{
+        width: 70vw;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px){
+
+    header h1{
+        padding: 10px 0px;
+    }
+
+    i#burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+        text-align: left;
+    }
+
+    ul{
+        background-color: rgb(150, 149, 149);
+    }
+
+    ul li{
+        display: inline-block;
+        background-color: #575757;
+        border-radius: 5px;
+    }
+
+    main{
+        width: 50vw;
+    }
+
+
+}
