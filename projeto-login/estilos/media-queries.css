@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints 
+------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: de 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 790px) and (max-width: 992px) {
+
+    section{
+        position: absolute;
+        top: 50%;
+        width: 80vw;
+        height: 278px;
+    }
+
+    div#imagem{
+        height: 278px;
+        border-radius: 0;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+
+    div#formulario h1{
+        position: absolute;
+        top: 0%;
+        left: 50vw;
+    }
+
+    div#formulario > p{
+        position: absolute;
+        top: 14%;
+        left: 247px;
+    }
+
+    div#formulario div#fundo1{
+        display: block;
+        position: absolute;
+        top: 33%;
+        left: 50%;
+        width: 40%;
+    }
+
+    div#formulario div input#iemail{
+        position: absolute;
+        margin: auto;
+        top: 7%;
+        left: 35px;
+    }
+
+    div#formulario div#fundo2{
+        position: absolute;
+        top: 49%;
+        left: 50%;
+    }
+
+    div#formulario div input#ipass{
+        position: absolute;
+        top: 7%;
+        left: 35px;
+    }
+}

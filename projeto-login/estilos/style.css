@@ -21,22 +21,27 @@ main{
 section{
     position: absolute;
     background-color: white;
-    width: 50vw;
-    height: 80vh;
+    width: 250px;
+    height: 532px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.705);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
 }
 
 div#imagem{
+    display: block;
     background: white url('../imagens/pattern-building.jpg') center center no-repeat fixed;
     background-size: cover;
-    width: 50vw;
-    height: 33vh;
+    width: 250px;
+    height: 220px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+div#formulario{
+    display: block;
 }
 
 div#formulario h1{
@@ -86,14 +91,13 @@ div#formulario div input#iemail{
 
 div#formulario div input#ipass{
     position: absolute;
-    top: 72.6%;
+    top: 72.5%;
 }
 
 div#formulario form input#submit{
     background-color: #74cecb;
     color: white;
-    font-weight: bold;
-    font-size: 0.9em;
+    font: bold 0.9em Arial, Helvetica, 'sans-serif';
     width: 226px;
     height: 40px;
     border-radius: 10px;
@@ -101,6 +105,23 @@ div#formulario form input#submit{
     margin: 5px 0px 4px 12px;
 }
 
+div#formulario a{
+    display: block;
+    text-decoration: none;
+    color: #2d6361;
+    width: 165px;
+    padding: 8px 0px 9px 58px;
+    margin-left: 12px;
+    border: 2px solid #74cecb;
+    border-radius: 10px;
+}
 
+div#formulario > form > i{
+    position: absolute;
+    top: 90.5%;
+    left: 73%;
+    color: #2d6361;
+    font-size: 0.8em;
+}
 
 
