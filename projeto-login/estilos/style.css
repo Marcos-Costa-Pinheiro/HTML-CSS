@@ -40,7 +40,7 @@ section#login{
     transition-timing-function: ease;
 }
 
-section#login > div#imagem{
+div#imagem{
     display: block;
     background: #5f2c82 url(../imagens/pattern-building.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -48,16 +48,19 @@ section#login > div#imagem{
     height: 200px;
 }
 
-section#login > div#formulario > h1{
+div#formulario > h1{
     text-align: center;
     padding: 5px;
 }
 
-section#login > div#formulario > p{
+div#formulario > p{
     padding: 5px;
+    text-align: center;
+    font-size: 0.8em;
+    margin-bottom: -5px;
 }
 
-section#login > div#formulario > form > div.campo{
+form > div.campo{
     background-color: #5f2c82;
     width: 90%;
     height: 41px;
@@ -66,10 +69,49 @@ section#login > div#formulario > form > div.campo{
     border-radius: 5px;
 }
 
-section#login > div#formulario > form > div.campo > input{
-    margin: 2px;
-    width: 98%;
+form > div.campo > input{
+    background-color: #94cfcd;
+    margin: 4px;
+    margin-left: 40px;
+    width: calc(100% - 45px);
     border-radius: 5px;
     border: none;
+    height: 80%;
+    transform: translateY(-42px);
+    padding: 6px;
+    font-size: 1em;
+}
+
+form > div.campo > input:focus{
+    background-color: white;
+}
+
+input#submit{
+    background-color: #53aaa7;
+    color: white;
+    font-size: 1em;
+    margin-left: 5%;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+form > div.campo > i{
+    font-size: 2em;
+    color: white;
+    padding: 5px;
+}
+
+form a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #53aaa7;
     padding: 10px;
+    margin: 5px;
+    margin-left: 5%;
+    border-radius: 5px;
+    width: 90%;
+    color: #326463;
 }

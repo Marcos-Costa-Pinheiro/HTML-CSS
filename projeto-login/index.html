@@ -21,11 +21,15 @@
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post">
                     <div class="campo">
-                        <input type="email" name="" id="">
+                        <i class="material-icons">person</i>
+                        <input type="email" name="email" id="iemail" placeholder="seu e-mail" required>
                     </div>
                     <div class="campo">
-                        <input type="password" name="" id="">
+                        <i class="material-icons">vpn_key</i>
+                        <input type="password" name="pass" id="ipass" placeholder="sua senha" required minlength="6" maxlength="12">
                     </div>
+                    <input type="submit" value="Entrar" id="submit">
+                    <a href="#">Esqueci a senha <i class="material-icons" style="font-size: 0.8em;">mail</i></a>
                 </form>
             </div>
         </section>

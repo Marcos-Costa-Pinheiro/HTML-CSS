@@ -15,21 +15,18 @@ Grandes telas: acima de 1200px
         height: 45vh;
     }
 
-    section#login > div#imagem{
+    div#imagem{
         float: left;
         width: 30%;
         height: 100%;
     }
 
-    section#login > div#formulario{
+    div#formulario{
         float: right;
         width: 70%;
         height: 100%;
     }
 
-    section#login > div#formulario > form > div.campo > input{
-        width: 99%;
-    }
 }
 
 @media screen and (min-width: 992px) {
@@ -38,19 +35,19 @@ Grandes telas: acima de 1200px
         height: 55vh;
     }
 
-    section#login > div#imagem{
+    div#imagem{
         float: right;
-        width: 50%;
+        width: 51%;
         height: 100%;
     }
 
-    section#login > div#formulario{
+    div#formulario{
         float: left;
-        width: 50%;
+        width: 49%;
         height: 100%;
     }
 
-    div#formulario > form > div.campo > input{
-        
-     }
+    input{
+        width: calc(100% - 45px);
+    }
 }
