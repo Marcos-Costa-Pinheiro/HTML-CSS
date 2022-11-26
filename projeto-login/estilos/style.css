@@ -22,7 +22,7 @@ body, html{
 main{
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 96vh;
 }
 
 section#login{
@@ -115,3 +115,4 @@ form a{
     width: 90%;
     color: #326463;
 }
+

@@ -10,6 +10,10 @@ Grandes telas: acima de 1200px
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
     section#login{
         width: 80vw;
         height: 45vh;
@@ -27,9 +31,14 @@ Grandes telas: acima de 1200px
         height: 100%;
     }
 
+
 }
 
 @media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
     section#login{
         width: 95vw;
         height: 55vh;
@@ -49,5 +58,9 @@ Grandes telas: acima de 1200px
 
     input{
         width: calc(100% - 45px);
+    }
+
+    footer > p{
+        background-color: #397c7a;
     }
 }
