@@ -136,6 +136,7 @@ colums- numero de colunas que a lista terá
 overflow - utilizado pra deixar as tabelas responsivas
 media queries - utiliza-se o @media
 calc - faz um calculo dentro da css
+transitions e transforms usam-se na ultima linha do seletor
 
 
 
